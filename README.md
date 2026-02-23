@@ -24,7 +24,8 @@ git clone https://github.com/Geraincar/CS2-Market-Tracker.gitcd CS2-Market-Track
 # Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
-
+```
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
