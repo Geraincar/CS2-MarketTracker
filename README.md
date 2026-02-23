@@ -20,9 +20,7 @@ git clone https://github.com/Geraincar/CS2-Market-Tracker.gitcd CS2-Market-Track
 2. Создание виртуального окружения 
 
 Рекомендуется использовать виртуальное окружение, чтобы не засорять глобальные пакеты: 
-bash
- 
-  
+```bash
 # Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
@@ -30,17 +28,16 @@ source venv/bin/activate
 # Windows
 python -m venv venv
 venv\Scripts\activate
+```
  
  
  
 3. Установка зависимостей 
 
 Все необходимые библиотеки перечислены в requirements.txt: 
-bash
- 
-  
+```bash 
 pip install -r requirements.txt
- 
+```
  
  
 # ⚙️ Настройка 
@@ -61,35 +58,23 @@ pip install -r requirements.txt
 Проект состоит из трех независимых скриптов. Для полноценной работы запустите каждый в отдельном терминале. 
 
 Терминал 1 — Парсер Steam: 
-bash
- 
-  
+```bash
 python parser_steam.py
- 
- 
- 
-
+```
 Терминал 2 — Парсер Buff: 
-bash
- 
-  
+```bash
 python parser_buff.py
- 
- 
+```
  
 
 Терминал 3 — Дашборд: 
-bash
- 
-  
+```bash
 streamlit run dashboard.py
- 
+```
  
  
 
-После запуска дашборда, откройте браузер по адресу `http:// 
-
-localhost:8501`. 
+После запуска дашборда, откройте браузер по адресу `http://localhost:8501`. 
 # ⚠️ Важные предупреждения 
 
 1. Rate Limits (Ограничения скорости):
