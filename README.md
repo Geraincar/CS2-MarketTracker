@@ -14,7 +14,9 @@ PythonStreamlitLicense
 # 🛠 Установка и запуск
 1. Клонирование репозитория
 
-```git clone https://github.com/Geraincar/CS2-Market-Tracker.gitcd CS2-Market-Tracker```
+```bash
+git clone https://github.com/Geraincar/CS2-Market-Tracker.gitcd CS2-Market-Tracker
+```
 
  
 2. Создание виртуального окружения 
