@@ -20,13 +20,14 @@ git clone https://github.com/Geraincar/CS2-Market-Tracker.gitcd CS2-Market-Track
 2. Создание виртуального окружения 
 
 Рекомендуется использовать виртуальное окружение, чтобы не засорять глобальные пакеты: 
+## Linux / macOS
 ```bash
-# Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
 ```
+
+## Windows
 ```bash
-# Windows
 python -m venv venv
 venv\Scripts\activate
 ```
