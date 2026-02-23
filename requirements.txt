@@ -1,0 +1,6 @@
+aiohttp
+requests
+pandas
+streamlit
+plotly
+streamlit-autorefresh
